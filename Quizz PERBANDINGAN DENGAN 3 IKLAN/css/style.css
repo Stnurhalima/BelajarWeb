@@ -1,0 +1,66 @@
+@import url('https://fonts.googeapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400&family=Rubik+Moonrocks&display=swap');
+
+
+
+html{
+    max-width:"100%";
+  
+    
+} 
+
+
+body{
+    margin: 0;
+    color: #000000;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.navbar {
+    background-color: #893168;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.navbar a {
+    color: white;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 15px;
+    float: left;
+}
+
+
+.navbar a:hover {
+    background-color: #2e1c2b;
+    color: white;
+}
+
+.flexbox {
+    align-items: stretch;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    background-color: #eaeaea;
+}
+
+.flexbox > div {
+    padding: 15px;
+    margin: 15px;
+    text-align: justify;
+    background-color: #eaeaea;
+
+}
+
+.footer {
+    position: relative;
+    background-color:#893168 ;
+    clear: both;
+    padding: 1%;
+    margin-top: -0%;
+    color: white;
+    text-align: center;
+}
+    
